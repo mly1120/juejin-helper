@@ -333,7 +333,7 @@ async function run(args) {
 
   const message = messageList.join(`\n${"-".repeat(15)}\n`);
   notification.pushMessage({
-    title: "掘金每日签到",
+    title: "掘金每日签到，记得使用Trae AI领取5000矿石",
     content: message,
     msgtype: "text"
   });
